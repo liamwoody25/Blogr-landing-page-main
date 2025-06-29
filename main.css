@@ -125,8 +125,7 @@ header {
 
 
 
-
-.hamburger-card {
+.ham-burger-card {
   color: #fff;
   width: 221px;
   z-index: 1;
@@ -183,7 +182,7 @@ header {
   }
 
   .logo {
-    width: 50px;
+    width: 110px;
     height: auto;
   }
   .nav-btns {
@@ -196,6 +195,10 @@ header {
   display: block;
   color: #fff;
   cursor: pointer;
+}
+
+.login-btn:hover {
+  opacity: 0.3;
 }
 
 
@@ -224,6 +227,15 @@ header {
     justify-content: space-between;
   }
 
+  .learn-btn:hover {
+    background-color: #fff;
+    color: #ff3d54;
+  }
+
+  .free-btn:hover {
+    opacity: 0.5;
+  }
+
 
   .nav-bar {
     display: flex;
@@ -233,7 +245,8 @@ header {
   }
 
   .link-card {
-    width: 50%;
+    width: 55%;
+    display: none;
     color: #fff;
 }
 

@@ -1,12 +1,22 @@
 const hamBtn = document.querySelector('.hamburger-toggle');
+const arrowBtn = document.querySelector('.link') 
+
+function dropDown() {
+  
+
+
+}
+
+arrowBtn.addEventListener('click', function(){
+  console.log('click')
+})
 
 hamBtn.addEventListener('click', function(){
- const showBtn = document.querySelector('.hamburger-card');
-
- if (showBtn.style.display === 'none') {
-  showBtn.style.display = 'block';
- } else {
-  showBtn.style.display = 'none';
- }
-
+  const hamBurger = document.querySelector('.hamburger-card');
+  if (hamBurger.style.display === 'block'){
+    hamBurger.style.display = 'none';
+  } else {
+    hamBurger.style.display = 'block';
+  }
 })
+
